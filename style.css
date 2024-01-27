@@ -136,3 +136,29 @@ a > img{
     padding-top: 20px;
 }
 
+#material{
+    display: flex;
+    background-color: #6503A6;
+    margin-top: 70px;
+    padding: 85px;
+}
+
+#material  > img{
+    width: 650px;
+    height: 450px;
+}
+
+#material > p{
+    color: #FFD800;
+    font-family: 'osw';
+    font-size: 40px;
+    font-weight: bold;
+    text-indent: 0px;
+    padding-left: 80px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+strong{
+    text-decoration: underline;
+}
