@@ -137,28 +137,45 @@ a > img{
 }
 
 #material{
-    display: flex;
+    width: 86%;
+    display: block;
     background-color: #6503A6;
     margin-top: 70px;
-    padding: 85px;
+    padding: 75px;
+    padding-bottom: 40px;
+    text-align: center;
+
 }
 
-#material  > img{
-    width: 650px;
-    height: 450px;
+
+source{
+    display: block;
 }
 
-#material > p{
+picture  > img{
+    margin-top: 35px;
+    margin: auto;
+    height: 700px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.494);
+    
+}
+
+picture > p{
+    height: 100%;
+    width: 80%;
     color: #FFD800;
     font-family: 'osw';
-    font-size: 40px;
+    font-size: 2.6em;
     font-weight: bold;
     text-indent: 0px;
     padding-left: 80px;
-    padding-top: 50px;
+    padding-top: 60px;
     text-align: center;
+    padding: auto;
+    
 }
 
 strong{
     text-decoration: underline;
 }
+
