@@ -94,6 +94,12 @@ nav > a:hover::before{
     visibility: visible;
 }
 
+main{
+    max-width: 950;
+    min-width: none;
+    margin: auto;
+}
+
 p{
     text-align: justify;
     text-indent: 20px;
@@ -122,9 +128,69 @@ article > h3{
 
 article > p{
     text-align: justify;
-      margin-bottom: 1em;
+      margin-bottom: 6em;
 }
 
 form{
-    display: inline-block;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #6503A6;
+    width: 12em;
+    height: 13em;
+    padding: 3em;
+    padding-top:1.7em;
+    padding-left: 1.7em;
+    border-radius: 15px;
+    text-align: left;
+    
+
+}
+
+label{
+    color: #6503A6;
+}
+
+.nome > label{
+    font-family: 'opensans';
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+input{
+    margin-bottom: 1.5em;
+    border: 1px 1px #f29f05;
+    border: 1px 1px #6503A6;
+}
+
+
+
+.email > label{
+    font-family: 'opensans';
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+.numero > label{
+    font-family: 'opensans';
+    font-weight: bold;
+    margin-right: 1em;
+    
+}
+
+.button{
+    text-align: center;
+}
+
+.button > button{
+    width: 10em;
+    padding: 1em;
+    background-color:#9A00FB;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.469);
+}
+
+.button > button:hover{
+    background-color: #6503A6;
 }
