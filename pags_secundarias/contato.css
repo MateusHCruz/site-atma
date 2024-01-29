@@ -100,12 +100,38 @@ main{
     margin: auto;
 }
 
+aside{
+    margin-top: 2.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+aside > h2{
+    color: #6503A6;
+    font-size: 2.5em;
+    font-family: 'osw';
+    padding-bottom: 0.5em;
+
+}
+
+aside > p{
+    padding-bottom: 1em;
+}
+
+aside > p > strong{
+    color: #6503A6;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 p{
     text-align: justify;
     text-indent: 20px;
     font-family: 'opensans';
     font-size:1.1em;
 }
+
 
 article{
     margin-top: 1.5em;
@@ -130,6 +156,33 @@ article > p{
     text-align: justify;
       margin-bottom: 6em;
 }
+
+.zap{ 
+    margin: auto;
+    margin-top: 3em;
+    text-align: center;
+}
+
+.zap > p{
+    color: #6503A6;
+    text-align: center;
+    padding-bottom: 1em;
+    text-indent: 0;
+
+}
+
+.zap > a > img{
+    border: 1px 1px #6503A6;
+}
+
+.ou{
+    color: #6503A6;
+    font-family: 'osw';
+    font-size: 2em;
+    font-weight: normal;
+    margin: 2em;
+}
+
 
 form{
     margin-top: 3em;
