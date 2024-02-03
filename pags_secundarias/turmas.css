@@ -125,3 +125,50 @@ article > h3{
     margin-top: 0.5em;
     margin-bottom: 0.3em;
 }
+
+
+.rendimento{
+    padding: 1em;
+    margin-top: 1em;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    
+    
+    
+}
+
+.rendimento > img{
+    height: 50%;
+    width: 50%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.401);
+    
+}
+
+.inicio{
+    padding: 1em;
+    margin-top: 1em;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.inicio > img{
+    height: 50%;
+    width: 50%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.401);
+}
+
+.lazer{
+    padding: 1em;
+    margin-top: 1em;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.lazer > img{
+    height: 50%;
+    width: 50%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.401);
+}
