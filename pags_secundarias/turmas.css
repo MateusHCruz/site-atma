@@ -102,7 +102,7 @@ p{
     text-align: justify;
     text-indent: 20px;
     font-family: 'opensans';
-    font-size:1.1em;
+    font-size:1em;
 }
 
 article{
@@ -121,7 +121,7 @@ article > h2{
 article > h3{
     font-family: 'osw';
     color: #9A00FB;
-    font-size: 1.3em;
+    font-size: 2em;
     margin-top: 0.5em;
     margin-bottom: 0.3em;
 }
@@ -139,10 +139,10 @@ article > h3{
 }
 
 .rendimento > img{
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.401);
-    
+    border-radius: 10px;
 }
 
 .inicio{
@@ -154,9 +154,10 @@ article > h3{
 }
 
 .inicio > img{
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.401);
+    border-radius: 10px;
 }
 
 .lazer{
@@ -172,3 +173,52 @@ article > h3{
     width: 50%;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.401);
 }
+
+article > #hora > h2{
+    color: #6503A6;
+    font-size: 2.5em;
+    font-family: 'osw';
+    padding-bottom: 0.3em
+}
+
+strong{
+    color: #6503A6;
+    font-weight: bold;
+}
+
+
+h4{
+    color: #9A00FB;
+    font-family: 'opensans';
+    margin: 0.5em;
+    margin-left: 1em;
+}
+
+#hora > p{
+    text-indent: 0;
+    text-align: justify;
+    margin-top: 1.3em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+}
+
+footer{
+    background-color: #9b00fb;
+    padding: 0.3em;
+}
+
+footer > p{
+    font-family: 'opensans';
+    text-align: center;
+    color: #ffffff;
+}
+
+footer > p > a{
+    color: #FFD800;
+    text-decoration: none;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+}
+

@@ -103,13 +103,13 @@ p{
     text-align: justify;
     text-indent: 20px;
     font-family: 'opensans';
-    font-size:1.1em;
+    font-size:1em;
 }
 
 article{
     margin-top: 1.5em;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 0.7em;
+    margin-right: 0.5em;
 }
 
 article > h2{
@@ -122,11 +122,21 @@ article > h2{
 article > p{
     text-align: justify;
       margin-bottom: 1em;
+      margin-right: 2em;
+}
+
+#valores > p{
+    margin-bottom: 4em;
+}
+
+.insta{
+    text-align: center;
 }
 
 .insta > p{
     text-indent: 0px;
-    margin-bottom: 0.5em;    
+    margin: 1em;  
+    text-align: center;  
 }
 
 .insta > p > strong{
@@ -134,9 +144,11 @@ article > p{
     color: #6503A6;
 }
 
+
 a > img{
     height: 50px;
-    margin: 1em;
+    margin: 1em;  
+     
 }
 
 #material{
@@ -150,6 +162,7 @@ picture  > img{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.415);
     margin: auto;
     margin-bottom: 1em;
+    border-radius: 15px;
 }
 
 picture > p{
@@ -173,6 +186,7 @@ picture > p{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.415);
     margin: auto;
     margin-bottom: 1em;
+    border-radius: 15px;
 }
 
 #profi > p{
@@ -183,7 +197,7 @@ picture > p{
     font-weight: bold;
     text-indent: 0px;
     text-align: center;
-    margin-bottom: 1.5em;
+    margin-bottom: 0em;
 }
 
 #profi > p > strong{
