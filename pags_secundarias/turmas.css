@@ -174,11 +174,15 @@ article > h3{
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.401);
 }
 
+#hora{
+    margin-bottom: 3em;
+}
 article > #hora > h2{
     color: #6503A6;
     font-size: 2.5em;
     font-family: 'osw';
     padding-bottom: 0.3em
+
 }
 
 strong{
@@ -200,25 +204,5 @@ h4{
     margin-top: 1.3em;
     margin-bottom: 2em;
     margin-left: 1em;
-}
-
-footer{
-    background-color: #9b00fb;
-    padding: 0.3em;
-}
-
-footer > p{
-    font-family: 'opensans';
-    text-align: center;
-    color: #ffffff;
-}
-
-footer > p > a{
-    color: #FFD800;
-    text-decoration: none;
-}
-
-footer > p > a:hover{
-    text-decoration: underline;
 }
 

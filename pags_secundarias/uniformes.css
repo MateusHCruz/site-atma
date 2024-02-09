@@ -65,6 +65,7 @@ nav > a{
    font-size: 20px;
    margin: auto;
    padding-right: 0.5em;
+   font-weight: normal;
 
    position: relative;
    text-decoration: none; 
@@ -162,12 +163,17 @@ img{
     margin-bottom: 2em;
 }
 
-a{
+#pedido{
+    margin-bottom: 3em;
+}
+
+#pedido > p > a{
     color: #4b007d;
     text-decoration: none;
     font-weight: bold;
 }
 
-a:hover{
+#pedido > p > a:hover{
     text-decoration: underline;
 }
+
