@@ -136,11 +136,13 @@ img{
 .amarelo{
     text-align: center;
     margin-bottom: 1em;
+    
 }
 
 .amarelo > img{
-    width: 90%;
+    width: 50%;
     height: 90%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.659);
 }
 
 .roxo{
@@ -149,12 +151,12 @@ img{
 }
 
 .roxo > img{
-    width: 90%;
+    width: 50%;
     height: 90%;
 }
 
 .preto > img{
-    width: 90%;
+    width: 50%;
     height: 90%;
 }
 
