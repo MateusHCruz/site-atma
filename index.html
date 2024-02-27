@@ -6,52 +6,148 @@
     <title>ATMA prototipo</title>
     <link rel="stylesheet" href="home.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        
+    </script>
     <header>
+        <div id="inicio"></div>
         <div class="letreiro">
             <img src="images/mascote.png" alt="Foto do mascote do clube">
             <h1>Associação de tênis de mesa Acarás</h1>
-        </div>
+        </div> 
+        
+    </header>
         <nav>
             <a href="#">Home</a>
-            <a href="pags_secundarias/turmas.html">Turmas</a>
-            <a href="pags_secundarias/uniformes.html">Uniformes</a>
-            <a href="pags_secundarias/contato.html" rel="self">Contato</a>
+            <a href="#turmas">Turmas</a>
+            <a href="#contato">Contato</a>
+            
         </nav>
-    </header>
+   
     <main>
-        <article>
-            <h2>Nós somos a ATMA</h2>
-                <p>
-                     Uma Associação de Tênis de Mesa criada do litoral norte do Ceará com a missão de utilizar o esporte como veículo principal de desenvolvimento, integração e saúde para todas as idades e proporcionar meios de aperfeiçoamento físico e técnico para o desenvolvimento de crianças, adolescentes, adultos e idosos que buscam uma qualidade de vida melhor. 
-                    </p>
-                    <h2>História</h2>
+        
+        <div id="home">
+            <article>
+               
+                <h2>Nós somos a ATMA!</h2>
+                <div class="linha"></div>
                     <p>
-                        Iniciamos nossas atividades em Outubro de 2021, ano em que funcionamos como núcleo do Projeto Integração Escola Comunidade, da Federação dos Mesatenistas do Ceará. Desde então, visamos a integração de jovens no esporte e o foco na criação de categorias de base. Comprovando esta missão, temos a participação dos jovens Acarás nos Jogos Escolares do Ceará, com 6 participações na fase Estadual e 2 na fase nacional, além de resultados exemplares de nossa Associação no Campeonato Cearense de Tênis de Mesa
-                    </p>
-                    <h2>Valores</h2>
-                    <div id="valores">
-                        <p>
-                             Somos uma Associação sem fins lucrativos com valores pautados na disciplina, integridade, respeito, responsabilidade, colaboração e excelência. Vários atletas fazem parte e fizeram história na ATMA, venha você fazer história conosco!
+                         Uma Associação de Tênis de Mesa criada do litoral norte do Ceará com a missão de utilizar o esporte como veículo principal de desenvolvimento, integração e saúde para todas as idades e proporcionar meios de aperfeiçoamento físico e técnico para o desenvolvimento de crianças, adolescentes, adultos e idosos que buscam uma qualidade de vida melhor.
                         </p>
-                    </div>
+                        <h2>História</h2>
+                        <div id="seta" >
+                            <a href="#inicio">
+                                <ion-icon name="arrow-up-outline"></ion-icon>
+                            </a>
+                        </div>
+                        <div class="linha"></div>
+                        <p>
+                            Iniciamos nossas atividades em Outubro de 2021, ano em que funcionamos como núcleo do Projeto Integração Escola Comunidade, da Federação dos Mesatenistas do Ceará. Desde então, visamos a integração de jovens no esporte e o foco na criação de categorias de base. Comprovando esta missão, temos a participação dos jovens Acarás nos Jogos Escolares do Ceará, com 6 participações na fase Estadual e 2 na fase nacional, além de resultados exemplares de nossa Associação no Campeonato Cearense de Tênis de Mesa
+                        </p>
+                        <h2>Valores</h2>
+            
+                        <div id="valores">
+                            <div class="linha"></div>
+                            <p>
+                                 Somos uma Associação sem fins lucrativos com valores pautados na disciplina, integridade, respeito, responsabilidade, colaboração e excelência. Vários atletas fazem parte e fizeram história na ATMA, venha você fazer história conosco!
+                            </p>
+                        </div>
+            
+            </article>
+                <div id="material" data-aos="fade-right" data-aos-duration="1000">
+            <picture>
+                <img  src="images/fotomaterial300.jpg" alt="MATERIAIS">
+                <p>Contamos com materiais de alta qualidade! Incluindo rôbos para auxiliar nos treinos, mesas profissionais e muito mais! </p>
+            </picture>
+                </div>
+                <div id="profi" data-aos="fade-left" data-aos-duration="1000">
+            <picture>
+                <img  src="images/treino.jpg" alt="foto de treinos">
+                <p>Contamos também com profissionais capacitados com experiência vasta no esporte!</p>
+            </picture>
+                </div> 
+                <div class="insta" data-aos="fade-up" data-aos-duration="1000">
+             <p>  Acompanhe nosso clube nas redes sociais para ficar por dentro da nossa história!</p>
+              <div id="redes-social" >
+                  <a href="https://www.instagram.com/atm_acaras/">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                  <a href="https://www.youtube.com/@associacaodetenisdemesaaca8057">
+                      <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+                  <a href="#">
+                      <ion-icon name="logo-tiktok"></ion-icon>
+                  </a>
+              </div>     
+                </div>
+        </div>
+
+        <div id="turmas">
+
+            <h2>Turmas</h2>
+            <div class="linha"></div>
+            <p>Aqui na ATMA a prioridade é você! As turmas são divididas com base no seu objetivo no tênis de mesa. Confira as turmas e veja qual você mais se identifica. 
+            </p>
+            <div id="rendimento" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Turma rendimento</h3>
+                <p>A turma de <strong>rendimento</strong> é voltada para você que já tem uma maior experiência e busca melhorar ainda mais o seu nível no esporte. Nela você terá um maior foco para campeonatos estaduais, nacionais e competições específicas para você. Mas calma, não é tão simples entrar! Sua participação na turma deve ser avaliada primeiro pelos treinadores da ATMA, lembrando que a turma é composta por 8 alunos. 
+                </p>
+                <img src="images/rendimento.jpg" alt="turma de rendimento">
+            </div>
+
+            <div id="inicio" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Turma de iniciação</h3>
+                <p>Você nunca teve uma experiência com esporte mas quer aprender a jogar? A <strong>iniciação</strong> é seu lugar! Nesta turma você aprende tênis de mesa do zero, melhora seu nível de jogo e ganha experiência para competir!</p>
                     
-        </article>
-    <div id="material">
-        <picture>
-            <img src="images/fotomaterial300.jpg" alt="MATERIAIS">
-            <p>CONTAMOS COM MATERIAIS DE QUALIDADE!</p>
-        </picture>
-    </div>
-    <div id="profi">
-        <img src="images/treino.jpg" alt="foto de treinos">
-        <p>PROFISSIONAIS CAPACITADOS PARA ATENDER <strong>VOCÊ!</strong></p>
-    </div> 
-    <div class="insta">
-                    <p>Clique no <strong>icone abaixo</strong> para acessar e seguir a ATMA no Instagram e fique de olho em tudo que fazemos.</p>
-                    <a href="https://www.instagram.com/atm_acaras/" target="_blank" rel="external"><img src="images/instagram.png" alt="icone instagram"></a>
-    </div>
+                <img src="../images/iniciacao.jpg" alt="Foto exemplo iniciação">
+           </div>
+        </div>
+            
+        <div id="contato">
+            <h2>Descubra a emoção do Tênis de Mesa!</h2>
+            <div class="linha"></div>
+            <p>Com suas jogadas rápidas e estratégicas surpreendentes, esse esporte empolgante estimula seu Corpo e Mente como você nunca imaginou, proporcionando uma experiência completa e agradável.</p>
+            <p>Ao adotar o Tênis de Mesa como sua nova atividade física, você estará inserindo <strong>Diversão</strong>, <strong>Desafio</strong> e <strong>Entretenimento</strong> na sua rotina de exercícios. </p>
+            <p>adrenalina das partidas, o trabalho em equipe e a busca constante pela melhoria vão te motivar e garantir que você nunca mais ache o tedioso se exercitar e cuidar da sua saúde.</p>
+
+            <h2>Está interessado?</h2>
+            <h3>Que tal se juntar a nós? Entre em contato via WhatsApp ou E-mail </h3>
+            <div class="zap">
+            
+                <a href="https://api.whatsapp.com/send?phone=5588999488431&text=Ol%C3%A1,%20quero%20participar%20da%20hist%C3%B3ria%20da%20ATMA!" target="_blank" rel="external"><img src="../images/zap.png" alt="Foto WPP"></a>
+                <div class="ou">
+                    <h2>OU</h2>
+            </div>
+            <form action="https://formsubmit.co/atmacaras3107@gmail.com" method="post" target="_blank">
+                <div class="nome">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="digite seu nome:" id="nome" placeholder="Digite seu nome:">
+                </div>
+                <div class="email">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email:" id="email" placeholder="Digite seu E-mail:" required>
+                </div>
+                <div class="numero">
+                    <label for="message">Celular:</label>
+                    <input type="text" id="message" placeholder="Digite seu número:" required>
+                </div>
+                    <div class="button"><button>Enviar</button></div>
+            </form>
+        </div>
+
+        <footer></footer>
+        
+    
     </main>
+    
+
 </body>
 </html>
