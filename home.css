@@ -31,44 +31,9 @@
 html{
     scroll-behavior: smooth;
 }
- 
-/*  POP-UP   */
 
-    #pop-up{
-        display: flex;
-        position: fixed;
-        background-color: #6503a6dd;
-        color: white;
-        font-family: 'opensans';
-        padding: 15px;
-        z-index: 10;
-        left: 30%;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        
-    }
 
-    #icon-sntv > img{
-        width: 30%;
-        position: relative;
-        left: -20%;
-        top: 5%;
-    }
 
-    #texto-sntv > p{
-        position: relative;
-        left: -40%;
-        top: 20%;
-        width: 100%;
-        text-align: left;
-    }
-
-    #fechar-sntv > ion-icon{
-        font-size: 35px;
-        position: relative;
-        top: 28%;
-        left: -55%;
-    }
 /*Home*/
 
 #seta>a>ion-icon{
@@ -217,12 +182,12 @@ p{
 #material>picture> p{
     color: #6503A6;
     font-family: 'opensans';
-    font-size: 2.2em;
+    font-size: 1.5em;
     width: 500px;
-    padding-top: 30px;
+    
     border: 1px solid #6503a64a;
-    padding: 20px;
-    padding-block: 50px;
+    padding: 70px;
+    padding-block: 10px;
     border-radius: 20px;
 
     
@@ -238,6 +203,7 @@ p{
     justify-content: center;
     align-items: center;
     column-gap: 25px;
+    height: 100%;
 }
 
 #profi>picture>img{
@@ -249,13 +215,13 @@ p{
 #profi>picture>p{
     color: #6503A6;
     font-family: 'opensans';
-    font-size: 2.5em;
+    font-size: 1.5em;
     width: 460px;
     padding-top: 30px;
     border: 1px solid #6503a64a;
-    padding-block: 50px;
-    padding-inline: 20px;
+    padding: 40px;
     border-radius: 20px;
+    height: 100%;
 }
 
 .insta{
@@ -459,6 +425,8 @@ picture >img{
 #material>picture> p{
     font-size: 14px;
     height: 160px;
+    padding: 15px;
+    
 }
 
 #profi{
@@ -505,6 +473,45 @@ h3{
 input{
     border: 1px solid rgba(0, 0, 0, 0.382);
     border-radius: 5px;
+}
+
+footer{
+    background-color: #6503A6;
+    
+
+} 
+
+footer > h3{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+footer > #imagens-apoiadores{
+
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    
+}
+
+#imagens-apoiadores > img{
+    width: 100px;
+    padding-bottom: 30px;
+    
+}
+
+#encerramento{
+    background-color: #3c0064;
+    padding: 20px;
+    color: #dcbb00;
+
+    font-weight: bold;
+} 
+
+#encerramento > p {
+    text-align: center;
 }
 
 }
